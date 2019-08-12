@@ -11,7 +11,6 @@ def init_state():
     state['velocity'] = np.zeros((3, 2))
     state['mass'] = np.ones(3)
     state['color'] = np.random.uniform(.2, .9, (3, 3))
-    # shift location so that center of mass is origin.
     return state
 
 
